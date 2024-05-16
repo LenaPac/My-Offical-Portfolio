@@ -5,13 +5,15 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="style.css">
+
 </head>
 <body>
 
 <!-- Navbar (sit on top) -->
 <div class="w3-top">
   <div class="w3-bar w3-white w3-wide w3-padding w3-card">
-    <a href="#home" class="w3-bar-item w3-button"><b>BR</b> Architects</a>
+    <a href="#home" class="w3-bar-item w3-button"><b>LP</b> Coding</a>
     <!-- Float links to the right. Hide them on small screens -->
     <div class="w3-right w3-hide-small">
       <a href="#projects" class="w3-bar-item w3-button">Projects</a>
@@ -23,9 +25,9 @@
 
 <!-- Header -->
 <header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
-  <img class="w3-image" src="/w3images/architect.jpg" alt="Architecture" width="1500" height="800">
+  <img class="w3-image" src="Jellyfish.jpg" alt="Jellyfish" width="1500" height="800">
   <div class="w3-display-middle w3-margin-top w3-center">
-    <h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-black w3-opacity-min"><b>BR</b></span> <span class="w3-hide-small w3-text-light-grey">Architects</span></h1>
+    <h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-black w3-opacity-min"><b>LP</b></span> <span class="w3-hide-small w3-text-light-grey">Coding</span></h1>
   </div>
 </header>
 
@@ -62,21 +64,23 @@
   <!-- About Section -->
   <div class="w3-container w3-padding-32" id="about">
     <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">About Me</h3>
-    <img src="Me.jpg" alt="John" style="width:100%">
-    <p> Hello! I'm Lena Packer, a devotee of art and aesthetics. My passion lies in creating visually captivating online experiences through web design and tech skills. Dive into my portfolio and explore the intersection of artistry and technology!
-    </p>
+    <div class="w3-row-padding w3-grayscale">
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <h3>Lena Packer</h3>
+        <img src="Me.jpg" alt="John" style="width:100%">
+      </div>
   </div>
-
-  <div class="w3-row-padding w3-grayscale">
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <img src="Me.jpg" alt="John" style="width:100%">
-      <h3>Lena Packer</h3>
+  <p> Hello! I'm Lena Packer, a devotee of art and aesthetics. My passion lies in creating visually captivating online experiences through web design and tech skills. Dive into my portfolio and explore the intersection of artistry and technology!
+  </p>
+ 
     </div>
 
   <!-- Contact Section -->
   <div class="w3-container w3-padding-32" id="contact">
-    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Contact</h3>
-    <p>Lets get in touch and talk about your next project.</p>
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Contacts</h3>
+    <p>If you'd like to get in touch or just see more of my projects</p>
+    <a href="https://github.com/LenaPac">My Github Account</a>
+    <a href="https://replit.com/@LenaPacker">My Replit Account</a>
     <form action="/action_page.php" target="_blank">
       <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
       <input class="w3-input w3-section w3-border" type="text" placeholder="Email" required name="Email">
